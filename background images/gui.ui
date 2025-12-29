@@ -1,0 +1,5984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Electro_Element</class>
+ <widget class="QMainWindow" name="Electro_Element">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="ElectroElement">
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <widget class="QPushButton" name="H">
+    <property name="geometry">
+     <rect>
+      <x>384</x>
+      <y>236</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 205px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: green;
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px red, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: green;
+}</string>
+    </property>
+    <property name="text">
+     <string>H</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Li">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+  border-style: solid;
+  border-width:2px;
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>LI</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Na">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+  border-style: solid;
+  border-width:2px;
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Na</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="K">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>K</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rb">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cs">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fr">
+    <property name="geometry">
+     <rect>
+      <x>223</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 25px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 25px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ra">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ra</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ba">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ba</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sr">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ca">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ca</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mg">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+
+  border-style: solid;
+  border-width:2px;
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Mg</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Be">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+  border-style: solid;
+  border-width:2px;
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Be</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sc">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Y">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rf">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Db">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Db</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sg">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sg</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bh">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Bh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Hs">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hs</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mt">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Mt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ds">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ds</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rg">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rg</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cn">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Hf">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Zr">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Zr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ti">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ti</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ta">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ta</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="W">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>W</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Re">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Re</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Os">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Os</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ir">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pt">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pt</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Au">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Au</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Hg">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Hg</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Nb">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Nb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="V">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mo">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Mo</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tc">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Tc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ru">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ru</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rh">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pd">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ag">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ag</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cd">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Zn">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Zn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cu">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ni">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ni</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Co">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Co</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fe">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fe</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mn">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Mn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cr">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cr</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="star">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="double_star">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 85, 255);</string>
+    </property>
+    <property name="text">
+     <string>**</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Nh">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Nh</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tl">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Tl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="In">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>In</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ga">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ga</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Al">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Al</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>B</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fl">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mc">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Mc</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lv">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Lv</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ts">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Og">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>440</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Og</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pb">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sn">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ge">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ge</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Si">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Si</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="C">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BI">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Bi</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sb">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="As">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>As</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="P">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>P</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="N">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>N</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Po">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Po</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Te">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Te</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Se">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Se</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="S">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>S</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="O">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>O</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="At">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>At</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="I">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>370</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>I</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Br">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Br</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cl">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cl</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>F</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Rn">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>406</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Rn</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Xe">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>372</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Xe</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Kr">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>338</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Kr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ar">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>304</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ne">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>270</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ne</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="He">
+    <property name="geometry">
+     <rect>
+      <x>648</x>
+      <y>236</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>He</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="La">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>La</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ac">
+    <property name="geometry">
+     <rect>
+      <x>273</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ac</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ce">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ce</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pr">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pr</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Th">
+    <property name="geometry">
+     <rect>
+      <x>298</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Th</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pa">
+    <property name="geometry">
+     <rect>
+      <x>323</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Nd">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Nd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pm">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sm">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Sm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Eu">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Eu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Gd">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Gd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tb">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Tb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Dy">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Dy</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Ho">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Ho</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Er">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Er</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tm">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Tm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Yb">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Yb</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lu">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>502</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Lu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="U">
+    <property name="geometry">
+     <rect>
+      <x>348</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>U</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Np">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Np</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pu">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Pu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Am">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Am</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cm">
+    <property name="geometry">
+     <rect>
+      <x>448</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Bk">
+    <property name="geometry">
+     <rect>
+      <x>473</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Bk</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cf">
+    <property name="geometry">
+     <rect>
+      <x>498</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Cf</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Es">
+    <property name="geometry">
+     <rect>
+      <x>524</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Es</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Fm">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Fm</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Md">
+    <property name="geometry">
+     <rect>
+      <x>575</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Md</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="No">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>No</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Lr">
+    <property name="geometry">
+     <rect>
+      <x>624</x>
+      <y>536</y>
+      <width>23</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+  border-radius: 50px;
+  border-style: solid;
+  border-width:2px;
+  background-colo: rgb(85, 170, 255);
+  color: rgb(85,85,255);
+}
+
+QPushButton:hover{
+background-color: rgb(50,110,255);
+text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+border-radius: 50px;
+color:rgb(255,255,255);
+}
+
+QPushButton:pressed{
+background-color: rgb(100, 170, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Lr</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Lanthanoids">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>505</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>*Lanthanoids</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Actinoids">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>535</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>**Actinoids</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>220</y>
+      <width>101</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>periods.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>275</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>310</y>
+      <width>331</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> 3                    3      4       5       6      7      8      9     10    11     12</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>345</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>375</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>207</x>
+      <y>408</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>205</x>
+      <y>445</y>
+      <width>16</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>208</x>
+      <y>212</y>
+      <width>461</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>      1       2                                                                                                                                  18</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>350</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Period no</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>145</y>
+      <width>541</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>group.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>115</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Group No</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>245</y>
+      <width>451</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>1                                                                                                       13     14    15     16    17</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-70</x>
+      <y>-60</y>
+      <width>921</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>background.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="heading">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>-100</y>
+      <width>501</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>0001-0129.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="electron">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>181</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>electron_2.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>211</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>press shift+esc to close window</string>
+    </property>
+   </widget>
+   <zorder>label_2</zorder>
+   <zorder>H</zorder>
+   <zorder>Db</zorder>
+   <zorder>Sg</zorder>
+   <zorder>Bh</zorder>
+   <zorder>Hs</zorder>
+   <zorder>Mt</zorder>
+   <zorder>Ds</zorder>
+   <zorder>Rg</zorder>
+   <zorder>Cn</zorder>
+   <zorder>Ta</zorder>
+   <zorder>W</zorder>
+   <zorder>Re</zorder>
+   <zorder>Os</zorder>
+   <zorder>Ir</zorder>
+   <zorder>Pt</zorder>
+   <zorder>Au</zorder>
+   <zorder>Hg</zorder>
+   <zorder>Nb</zorder>
+   <zorder>V</zorder>
+   <zorder>Mo</zorder>
+   <zorder>Tc</zorder>
+   <zorder>Ru</zorder>
+   <zorder>Rh</zorder>
+   <zorder>Pd</zorder>
+   <zorder>Ag</zorder>
+   <zorder>Cd</zorder>
+   <zorder>Zn</zorder>
+   <zorder>Cu</zorder>
+   <zorder>Ni</zorder>
+   <zorder>Co</zorder>
+   <zorder>Fe</zorder>
+   <zorder>Mn</zorder>
+   <zorder>Cr</zorder>
+   <zorder>Nh</zorder>
+   <zorder>Tl</zorder>
+   <zorder>In</zorder>
+   <zorder>Ga</zorder>
+   <zorder>Al</zorder>
+   <zorder>B</zorder>
+   <zorder>Fl</zorder>
+   <zorder>Mc</zorder>
+   <zorder>Lv</zorder>
+   <zorder>Ts</zorder>
+   <zorder>Og</zorder>
+   <zorder>Pb</zorder>
+   <zorder>Sn</zorder>
+   <zorder>Ge</zorder>
+   <zorder>Si</zorder>
+   <zorder>C</zorder>
+   <zorder>BI</zorder>
+   <zorder>Sb</zorder>
+   <zorder>As</zorder>
+   <zorder>P</zorder>
+   <zorder>N</zorder>
+   <zorder>Po</zorder>
+   <zorder>Te</zorder>
+   <zorder>Se</zorder>
+   <zorder>S</zorder>
+   <zorder>O</zorder>
+   <zorder>At</zorder>
+   <zorder>I</zorder>
+   <zorder>Br</zorder>
+   <zorder>Cl</zorder>
+   <zorder>F</zorder>
+   <zorder>Rn</zorder>
+   <zorder>Xe</zorder>
+   <zorder>Kr</zorder>
+   <zorder>Ar</zorder>
+   <zorder>Ne</zorder>
+   <zorder>He</zorder>
+   <zorder>La</zorder>
+   <zorder>Ac</zorder>
+   <zorder>Ce</zorder>
+   <zorder>Pr</zorder>
+   <zorder>Th</zorder>
+   <zorder>Pa</zorder>
+   <zorder>Nd</zorder>
+   <zorder>Pm</zorder>
+   <zorder>Sm</zorder>
+   <zorder>Eu</zorder>
+   <zorder>Gd</zorder>
+   <zorder>Tb</zorder>
+   <zorder>Dy</zorder>
+   <zorder>Ho</zorder>
+   <zorder>Er</zorder>
+   <zorder>Tm</zorder>
+   <zorder>Yb</zorder>
+   <zorder>Lu</zorder>
+   <zorder>U</zorder>
+   <zorder>Np</zorder>
+   <zorder>Pu</zorder>
+   <zorder>Am</zorder>
+   <zorder>Cm</zorder>
+   <zorder>Bk</zorder>
+   <zorder>Cf</zorder>
+   <zorder>Es</zorder>
+   <zorder>Fm</zorder>
+   <zorder>Md</zorder>
+   <zorder>No</zorder>
+   <zorder>Lr</zorder>
+   <zorder>Lanthanoids</zorder>
+   <zorder>Actinoids</zorder>
+   <zorder>label</zorder>
+   <zorder>Hf</zorder>
+   <zorder>Rf</zorder>
+   <zorder>Mg</zorder>
+   <zorder>Sc</zorder>
+   <zorder>Rb</zorder>
+   <zorder>Ti</zorder>
+   <zorder>Cs</zorder>
+   <zorder>Fr</zorder>
+   <zorder>Sr</zorder>
+   <zorder>K</zorder>
+   <zorder>double_star</zorder>
+   <zorder>Be</zorder>
+   <zorder>Zr</zorder>
+   <zorder>Na</zorder>
+   <zorder>Ra</zorder>
+   <zorder>Y</zorder>
+   <zorder>Li</zorder>
+   <zorder>star</zorder>
+   <zorder>Ba</zorder>
+   <zorder>Ca</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_10</zorder>
+   <zorder>label_9</zorder>
+   <zorder>label_13</zorder>
+   <zorder>electron</zorder>
+   <zorder>heading</zorder>
+   <zorder>label_11</zorder>
+   <zorder>label_12</zorder>
+   <zorder>label_14</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
